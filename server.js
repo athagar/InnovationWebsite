@@ -18,6 +18,18 @@ app.get('/', function(req, res) {
     res.render('index');
 });
 
+app.get('/api', function(req, res) {
+    res.render('api');
+});
+
+app.get('/innovation', function(req, res) {
+    res.render('innovation');
+});
+
+app.get('/ea', function(req, res) {
+    res.render('ea');
+});
+
 app.listen(PORT, function() {
     console.log('Innovation Website listening on port: ' + PORT);
 });
