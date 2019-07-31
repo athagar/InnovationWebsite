@@ -123,4 +123,15 @@
       flex-direction: column;
       /* align-items: space-around; */
   }
+
+  .contact-form-container{
+     /* margin: 0 auto; */
+     width: 33vw;
+      margin-top: 50px;
+      margin-left: 50px;
+  }
+
+  #contact-us-img{
+      width: 100vw;
+  }
 }

@@ -30,6 +30,10 @@ app.get('/ea', function(req, res) {
     res.render('ea');
 });
 
+app.get('/contact', function(req, res) {
+    res.render('contact');
+});
+
 app.listen(PORT, function() {
     console.log('Innovation Website listening on port: ' + PORT);
 });

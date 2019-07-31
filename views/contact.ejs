@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <% include ./components/head %>
+        <style>
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("/img/contact-us.jpg");
+
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=email] , textarea{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.tag-line {
+    padding-top: 20px;
+    text-align: center;
+}
+</style>
+    </head>
+    <body>
+        <% include ./components/navbar %>
+        <br>
+
+
+<main role="main">
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+<!-- <img id="contact-us-img" src="/img/contact-us.jpg" alt="Contact Us" width:"500"> -->
+<div class="bg-img">
+    <div class="tag-line">
+        <h1 class="">Contact Us</h1>
+        <h2 class="">We'd love to hear from you!</h2>
+        <h2 class="">What ideas do you have for your next event?</h2>
+    </div>
+
+  <div class="contact-form-container" width="500">
+    <!-- START THE FEATURETTES -->
+    <!-- <hr class="featurette-divider"> -->
+    <form action="https://formspree.io/ahagar@autoclubgroup.aaa.com" method="POST">
+        <div class="form-group">
+            <h2 >Name</h2>
+            <input type="text" name="name" placeholder="Enter your name"><br />
+        </div>
+        <div class="form-group">
+            <h2>Email</h2>
+            <input type="email" name="_replyto" placeholder="Enter your email"><br />
+        </div>
+        <div class="form-group">
+            <h2>Message</h2>
+            <textarea name="message" rows="8" cols="80" placeholder="Tell us about your next event"></textarea><br />
+        </div>
+        <input class="btn " type="submit" value="Send">
+    </form>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+</div>
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+
+    <p>&copy; <script type="text/javascript"> var today = new Date(); var year = today.getFullYear(); document.write(year); </script>
+         Auto Club Group <!--&middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a>--></p>
+  </footer>
+</main>
+<script type="text/javascript" src='/js/index.js'></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', '/js/particles.json', function(){
+    console.log('particles.json loaded');
+  })
+</script>
+  </body>
+</html>
