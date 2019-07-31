@@ -33,7 +33,77 @@
     margin: 0 auto;
 }
 
+.my-container{
+    margin-top: 30px;
+}
 
+#r1c1 {
+    opacity: 0;
+    animation: cssAnimation 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r1c2 {
+    opacity: 0;
+    animation: cssAnimation 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r1c3 {
+    opacity: 0;
+    animation: cssAnimation 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r2c3 {
+    margin: auto;
+    opacity: 0;
+    animation: cssAnimation 4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r3c3 {
+    opacity: 0;
+    animation: cssAnimation 5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r3c2 {
+    opacity: 0;
+    animation: cssAnimation 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r3c1 {
+    opacity: 0;
+    animation: cssAnimation 7s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r2c1 {
+    margin: auto;
+    opacity: 0;
+    animation: cssAnimation 8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+@keyframes cssAnimation {
+    99% {
+        opacity: 0;
+    }
+    /* 25%{
+        opacity: 0.25;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    75%{
+        opacity: 0.75;
+    } */
+    100% {
+        opacity: 1;
+    }
+}
 
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
