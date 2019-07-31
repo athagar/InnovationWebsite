@@ -33,57 +33,66 @@
     margin: 0 auto;
 }
 
-.my-container{
+.innovation-container{
     margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #r1c1 {
+    font-family: 'Roboto', sans-serif;
     opacity: 0;
-    animation: cssAnimation 1s;
+    animation: cssAnimation 0.2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #r1c2 {
     opacity: 0;
-    animation: cssAnimation 2s;
+    animation: cssAnimation 0.4s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #r1c3 {
     opacity: 0;
-    animation: cssAnimation 3s;
+    animation: cssAnimation 0.6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #r2c3 {
     margin: auto;
     opacity: 0;
-    animation: cssAnimation 4s;
+    animation: cssAnimation 0.8s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #r3c3 {
     opacity: 0;
-    animation: cssAnimation 5s;
+    animation: cssAnimation 1s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #r3c2 {
     opacity: 0;
-    animation: cssAnimation 6s;
+    animation: cssAnimation 1.2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #r3c1 {
     opacity: 0;
-    animation: cssAnimation 7s;
+    animation: cssAnimation 1.4s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #r2c1 {
     margin: auto;
     opacity: 0;
-    animation: cssAnimation 8s;
+    animation: cssAnimation 1.8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r2c1b {
+    margin: auto;
+    opacity: 0;
+    animation: cssAnimation 1.6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
@@ -108,5 +117,10 @@
 @media (min-width: 768px) {
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
+  }
+  .left-col{
+      display:flex;
+      flex-direction: column;
+      /* align-items: space-around; */
   }
 }
