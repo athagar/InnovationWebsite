@@ -57,45 +57,89 @@
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
-#r2c3 {
+#r2c3a {
+
     margin: auto;
     opacity: 0;
     animation: cssAnimation 0.8s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
-#r3c3 {
+#r2c3b {
+    text-align: right;
     opacity: 0;
     animation: cssAnimation 1s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
-#r3c2 {
+#r2c3c {
+    margin: auto;
     opacity: 0;
     animation: cssAnimation 1.2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
-#r3c1 {
+#r2c3d {
+    margin: auto;
     opacity: 0;
     animation: cssAnimation 1.4s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
-#r2c1 {
-    margin: auto;
+#r3c3 {
+    opacity: 0;
+    animation: cssAnimation 1.6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r3c2 {
     opacity: 0;
     animation: cssAnimation 1.8s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r3c1 {
+    opacity: 0;
+    animation: cssAnimation 2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r2c1a {
+    margin: auto;
+    opacity: 0;
+    animation: cssAnimation 2.8s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
 #r2c1b {
     margin: auto;
     opacity: 0;
-    animation: cssAnimation 1.6s;
+    animation: cssAnimation 2.6s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
+#r2c1c {
+    margin: auto;
+    opacity: 0;
+    animation: cssAnimation 2.4s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+#r2c1d {
+    margin: auto;
+    opacity: 0;
+    animation: cssAnimation 2.2s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.col-center {
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 @keyframes cssAnimation {
     99% {
         opacity: 0;
@@ -118,11 +162,15 @@
   .bd-placeholder-img-lg {
     font-size: 3.5rem;
   }
+
   .left-col{
       display:flex;
       flex-direction: column;
+      justify-content: space-evenly;
       /* align-items: space-around; */
   }
+
+
 
   .contact-form-container{
      /* margin: 0 auto; */

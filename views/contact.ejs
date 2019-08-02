@@ -28,7 +28,7 @@ body, html {
 /* Add styles to the form container */
 .container {
   position: absolute;
-  right: 0;
+  right: 0;,
   margin: 20px;
   max-width: 300px;
   padding: 16px;
@@ -36,7 +36,7 @@ body, html {
 }
 
 /* Full-width input fields */
-input[type=text], input[type=email] , textarea{
+input[type=text], input[type=email],input[type=date], textarea{
   width: 100%;
   padding: 15px;
   margin: 5px 0 22px 0;
@@ -100,6 +100,10 @@ input[type=text]:focus, input[type=password]:focus {
         <div class="form-group">
             <h2>Email</h2>
             <input type="email" name="_replyto" placeholder="Enter your email"><br />
+        </div>
+        <div class="form-group">
+            <h2>Event Date</h2>
+            <input type="date" name="event-date" placeholder="Enter your email"><br />
         </div>
         <div class="form-group">
             <h2>Message</h2>

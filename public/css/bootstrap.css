@@ -9760,6 +9760,12 @@ button.bg-dark:focus {
   text-align: center !important;
 }
 
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 @media (min-width: 576px) {
   .text-sm-left {
     text-align: left !important;
