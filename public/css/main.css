@@ -36,6 +36,8 @@
 .innovation-container{
     margin-top: 30px;
     font-family: 'Roboto', sans-serif;
+    font-size:  24px;
+    font-weight: 600;
 }
 
 #r1c1 {
@@ -131,6 +133,9 @@
     animation: cssAnimation 2.2s;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
+}
+#r2c2{
+    margin-bottom: 40px;
 }
 
 .col-center {
