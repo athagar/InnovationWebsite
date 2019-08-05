@@ -14,7 +14,10 @@
     margin: 0 auto;
     color:#ffffff;
 }
-
+#nav-schedule{
+    color: #169eb4;
+    font-size: 24px;
+}
 #particles-js{
   background: grey;
   height: 600px;
