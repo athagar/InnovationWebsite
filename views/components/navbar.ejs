@@ -1,9 +1,8 @@
 <!-- <nav class="navbar" style="background-color: blue">
     <a class="navbar-brand" href="#">Navbar</a>
 </nav> -->
-<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <img class="nav-logo" src="/img/hatch-garage.png">
-    <!-- <a class="navbar-brand" href="#">Carousel</a> -->
+<!-- <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -21,11 +20,43 @@
             <li class="nav-item">
                 <a class="nav-link" href="/Innovation">Innovation</a>
             </li>
-            <!-- <li class="nav-item" id="nav-schedule">
-                <a class="nav-link" href="/contact">Schedule an event in our labs</a>
-            </li> -->
         </ul>
-        <h2 class="nav-title">Hatch Garage</h2>
+        <h2 class="nav-title ">Hatch Garage</h2>
         <a class="nav-link" id="nav-schedule" href="/contact">Schedule an event in our labs</a>
+    </div>
+</nav> -->
+
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/ea">EA</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/api">API</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/Innovation">Innovation</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a id="nav-hatch-title" class="navbar-brand mx-auto" href="/">
+            Hatch Garage
+            <!-- <p style="font-size: 30px">Hatch Garage</p> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a id="nav-schedule" class="nav-link" href="/contact">Schedule an event in our labs</a>
+            </li>
+        </ul>
     </div>
 </nav>

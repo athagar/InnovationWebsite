@@ -11,12 +11,24 @@
     width: 150px;
 }
 .nav-title{
-    margin: 0 auto;
+    margin: auto;
+    padding: auto;
     color:#ffffff;
+
 }
+
+.mx-auto .order-0{
+    font-size: 24px;
+}
+
+#nav-hatch-title{
+    font-size: 28px;
+}
+
 #nav-schedule{
     color: #169eb4;
-    font-size: 24px;
+    font-size: 20px;
+
 }
 #particles-js{
   background: grey;
