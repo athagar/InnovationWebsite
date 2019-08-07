@@ -35,6 +35,16 @@
   height: 600px;
 }
 
+.particles-js-canvas-el {
+    position: relative;
+    z-index: 10;
+}
+
+.carousel-index {
+    position: relative;
+    z-index: 5;
+}
+
 .carousel-caption{
   color: black;
   /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
