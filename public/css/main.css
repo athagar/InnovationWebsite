@@ -13,7 +13,8 @@
 .nav-title{
     margin: auto;
     padding: auto;
-    color:#ffffff;
+    /* color:#ffffff; */
+    color:#ff3333;
 
 }
 
@@ -31,8 +32,10 @@
 
 }
 #particles-js{
-  background: grey;
-  height: 600px;
+    background: grey;
+    /* background: #3399ff; */
+    /* background: #3399ff; */
+    height: 600px;
 }
 
 .particles-js-canvas-el {

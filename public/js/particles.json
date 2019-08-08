@@ -4,21 +4,26 @@
       "value":200
     },
     "color":{
-      "value": "#fff"
+      "value": "#b61924"
     },
     "shape":{
-      "type": "circle",
+      "type": "image",
       "stroke":{
         "width":1,
         "color": "#ccc"
-      }
+        },
+      "image": {
+          "src": "/img/egg.png",
+          "width": 100,
+          "height": 100
+        }
     },
     "opacity":{
       "value": 0.5,
       "random": true
     },
 	  "size":{
-      "value": 5
+      "value": 10
     }
   },
   "interactivity":{
