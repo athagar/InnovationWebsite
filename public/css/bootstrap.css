@@ -6578,8 +6578,8 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-    /* background-color: #800000 !important; */
-  background-color: #343a40 !important;
+  background-color: #800000 !important;
+  /* background-color: #343a40 !important; */
   /* background-color: #ff3333 !important; */
   /* background-color: grey !important; */
 }

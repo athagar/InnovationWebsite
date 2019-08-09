@@ -35,9 +35,9 @@
 }
 
 #particles-js{
-    /* background: #3E1C00; */
+    background: #3E1C00;
     /* background: #3399ff; */
-    background: grey;
+    /* background: grey; */
     height: 600px;
     /* background-image: url("/img/dearborn-california.png");
     background-size: cover;
@@ -55,7 +55,7 @@
 }
 
 .carousel-caption{
-  color: black;
+  color: white;
   /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
 }
 
