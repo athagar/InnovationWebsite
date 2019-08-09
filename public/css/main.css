@@ -13,11 +13,13 @@
 .nav-title{
     margin: auto;
     padding: auto;
-    /* color:#ffffff; */
-    color:#ff3333;
-
+    color:#ffffff;
+    /* color:#ff3333; */
 }
 
+.navbar-color-custom{
+    color:#ff3333;
+}
 .mx-auto .order-0{
     font-size: 24px;
 }
@@ -27,15 +29,19 @@
 }
 
 #nav-schedule{
-    color: #169eb4;
+    /* color: #169eb4; */
+    color: #fff;
     font-size: 20px;
-
 }
+
 #particles-js{
+    /* background: #3E1C00; */
+    /* background: #3399ff; */
     background: grey;
-    /* background: #3399ff; */
-    /* background: #3399ff; */
     height: 600px;
+    /* background-image: url("/img/dearborn-california.png");
+    background-size: cover;
+    opacity: 0.5; */
 }
 
 .particles-js-canvas-el {
