@@ -1,5 +1,9 @@
 {
   "particles":{
+      "line_linked": {
+      		"enable": true,
+     	 	"color": "#000"},
+
     "number":{
       "value":200
     },

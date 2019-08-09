@@ -39,9 +39,9 @@
     /* background: #3399ff; */
     background: grey;
     height: 600px;
-    /* background-image: url("/img/dearborn-california.png");
+    background-image: url("/img/dearborn-california.png");
     background-size: cover;
-    opacity: 0.5; */
+    opacity: 0.5;
 }
 
 .particles-js-canvas-el {
