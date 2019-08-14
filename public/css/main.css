@@ -61,15 +61,15 @@
 }
 
 .carousel-caption{
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  /*black border around words*/
+  color: black;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  black border around words*/ 
   top: 50%; /*centering carousel text*/
   transform: translateY(-50%); /*centering carousel text*/
   bottom: initial; /*centering carousel text*/
   background: /*  transparent white, faked with gradient */
   linear-gradient(
-    rgba(255, 255, 255, 0.9),
-    rgba(255, 255, 255, 0.9)
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1)
   )
 }
 
