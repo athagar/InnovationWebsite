@@ -61,9 +61,20 @@
 }
 
 .carousel-caption{
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+  color: black;
+  /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  black border around words*/
+  top: 50%; /*centering carousel text*/
+  transform: translateY(-50%); /*centering carousel text*/
+  bottom: initial; /*centering carousel text*/
+  background: /*  transparent white, faked with gradient */
+  linear-gradient(
+    rgba(255, 255, 255, 1),
+    rgba(255, 255, 255, 1)
+  )
+}
+
+@media (max-width: 350px) {
+
 }
 
 .animation{
@@ -216,8 +227,6 @@
       /* align-items: space-around; */
   }
 
-
-
   .contact-form-container{
      /* margin: 0 auto; */
      width: 33vw;
@@ -227,5 +236,10 @@
 
   #contact-us-img{
       width: 100vw;
+  }
+
+  .btn-blue{
+      background-color: #003893;
+      color: white;
   }
 }
