@@ -34,6 +34,26 @@ app.get('/contact', function(req, res) {
     res.render('contact');
 });
 
+app.get('/banking', function(req, res) {
+    res.render('banking');
+});
+
+app.get('/insurance', function(req, res) {
+    res.render('insurance');
+});
+
+app.get('/membership', function(req, res) {
+    res.render('membership');
+});
+
+app.get('/automotive', function(req, res) {
+    res.render('automotive');
+});
+
+app.get('/travel', function(req, res) {
+    res.render('travel');
+});
+
 app.listen(PORT, function() {
     console.log('Innovation Website listening on port: ' + PORT);
 });
