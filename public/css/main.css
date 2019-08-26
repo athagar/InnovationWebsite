@@ -84,6 +84,9 @@
 #innovation-featurette-img{
     margin: 0 auto;
 }
+.image-featurette{
+    width: 50vw;
+}
 
 .innovation-container{
     margin-top: 30px;
@@ -229,7 +232,7 @@
 
   .contact-form-container{
      /* margin: 0 auto; */
-     width: 33vw;
+      width: 33vw;
       margin-top: 50px;
       margin-left: 50px;
   }
