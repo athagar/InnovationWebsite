@@ -19,6 +19,9 @@
     },
 	  "size":{
       "value": 5
+    },
+     "move":{
+        "speed": 6
     }
   },
   "interactivity":{
