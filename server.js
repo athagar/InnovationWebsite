@@ -34,6 +34,10 @@ app.get('/contact', function(req, res) {
     res.render('contact');
 });
 
+app.get('/internEnroll', function(req, res) {
+    res.render('internEnroll');
+});
+
 app.listen(PORT, function() {
     console.log('Innovation Website listening on port: ' + PORT);
 });
